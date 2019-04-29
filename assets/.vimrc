@@ -1,0 +1,31 @@
+set encoding=utf-8
+set fileencodings=ucs-bom,utf-8,cp932,iso-2022-jp,euc-jp,default,latin
+set fileformats=unix,dos,mac
+set number
+set autoindent
+set expandtab
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set showmatch
+set matchtime=1
+set sidescroll=1
+set incsearch
+set hlsearch
+set ignorecase
+set smartcase
+set wrapscan
+set breakindent
+set wildmenu wildmode=list:longest,full
+set history=10000
+set noerrorbells
+set novisualbell
+set backspace=indent,eol,start
+set whichwrap=b,s,h,l,<,>,[,]
+set scrolloff=10
+set hidden
+set autoread
+set matchpairs& matchpairs+=<:>
+set infercase
+set shiftround
+set display+=lastline

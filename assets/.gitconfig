@@ -1,0 +1,32 @@
+[user]
+  name = isucon
+  email = isucon
+[color]
+  ui = auto
+  diff = auto
+  status = auto
+  branch = auto
+[core]
+  editor = vim
+  autocrlf = input
+  preloadindex = true
+  fscache = true
+  filemode = true
+[push]
+  default = simple
+[help]
+  autocorrect = -1
+[diff]
+  compactionHeuristic = true
+[difftool]
+  prompt = false
+[mergetool]
+  prompt = false
+[interactive]
+  singlekey = true
+[fetch]
+  prune = true
+[pull]
+  ff = only
+[commit]
+  verbose = true
