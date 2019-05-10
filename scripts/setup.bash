@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # required packages
-sudo apt-get update && sudo apt-get install -y unzip
+# sudo apt-get update && sudo apt-get install -y unzip
 
 # ------------------------------------------------------------
 
@@ -76,8 +76,8 @@ cp -f $ASSETS_DIR/.vimrc "$HOME/.vimrc"
 yes | bash <(curl -Ss https://my-netdata.io/kickstart-static64.sh)
 
 # dstat
-
-sudo apt-get install dstat
+# sudo apt-get install dstat
+sudo yum install -y dstat
 
 #
 # alias
