@@ -75,6 +75,10 @@ cp -f $ASSETS_DIR/.vimrc "$HOME/.vimrc"
 # netdata
 yes | bash <(curl -Ss https://my-netdata.io/kickstart-static64.sh)
 
+# dstat
+
+sudo apt-get install dstat
+
 #
 # alias
 #
