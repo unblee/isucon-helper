@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# このスクリプトは user 'isucon' で実行する
-if [ "$USER" != "isucon" ]; then
-  echo "Please switch user to 'isucon'"
-  exit 1
-fi
-
 # required packages
 sudo apt-get update && sudo apt-get install -y unzip
 
@@ -58,8 +52,8 @@ sudo git -C / init
 read -p "Please input your repository url (e.g. git@github.com:unblee/isucon.git): " REPOSITORY_URL
 sudo git remote add origin $REPOSITORY_URL
 sudo git fetch
-sudo git branch master origin/master
-sudo git reset
+# sudo git branch master origin/master
+# sudo git reset
 
 
 #
